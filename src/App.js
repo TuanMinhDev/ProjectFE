@@ -10,6 +10,9 @@ import User from "./pages/User"
 const App = () => {
   return (
     <Routes>
+      <Route>
+        
+      </Route>
   
   <Route path="/" element={<Layout />}>
     <Route index element={<Home />} />
