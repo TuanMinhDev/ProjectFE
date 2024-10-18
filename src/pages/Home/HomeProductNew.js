@@ -43,6 +43,7 @@ const HomeProductNew = () => {
                   <img
                     src="https://product.hstatic.net/200000525319/product/bo_1__39__3158a0749d1846e5b922b0da3a0c8d83_master.jpg"
                     style={{ width: "100%" }}
+                    alt=""
                   />
                   <h5>Short Sleeve Dress</h5>
                   <h5>$24.00</h5>
@@ -52,6 +53,7 @@ const HomeProductNew = () => {
                   <img
                     src="https://product.hstatic.net/200000525319/product/o1cn01un1vlt1jpmp5ivuu2___4153474540_cbcdcda7c5ac4b34b224ab753c5afdf4_master.jpg"
                     style={{ width: "100%" }}
+                    alt=""
                   />
                   <h5>Elessi Young T-shirt</h5>
                   <h5>$32.00</h5>
@@ -70,6 +72,7 @@ const HomeProductNew = () => {
                   <img
                     src="https://product.hstatic.net/200000525319/product/o1cn01rewngv1jpmpbnzwsn___4153474540_ade9ebf7fe2642a993471ebd6f39ef36_grande.jpg"
                     style={{ width: "100%" }}
+                    alt=""
                   />
                   <h5>Elessi Knit</h5>
                   <h5>$96.00</h5>
