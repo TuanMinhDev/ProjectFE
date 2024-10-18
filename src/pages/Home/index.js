@@ -1,4 +1,6 @@
 import HomeProductNew from "./HomeProductNew";
+import HomeProductSencond from "./HomeProductSencond";
+import HomeProductThree from "./HomeProductThree";
 import Slider from "./Slider"
 
 const Home = () =>{
@@ -6,6 +8,8 @@ const Home = () =>{
         <div>
             <Slider/>
             <HomeProductNew />
+            <HomeProductSencond/>
+            <HomeProductThree/>
         </div>
         
     )

@@ -1,3 +1,7 @@
-.HomeProductNew_TextProduct{
-    
+.fw-bolder{
+color: black;
+  transition: color 0.3s ease;
+  &:hover {
+    color: red; /* Màu thay đổi khi hover */
+  }
 }

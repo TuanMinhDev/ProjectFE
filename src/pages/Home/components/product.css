@@ -1,0 +1,52 @@
+.card-img-top {
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+  }
+  
+  .card-img-top.zoom-in {
+    transform: scale(1.1); /* Phóng to ảnh khi hover */
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #f56363;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header p {
+    font-size: 18px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .product img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .product p {
+    margin: 5px 0;
+  }
+  
+  .product del {
+    color: gray;
+  }
