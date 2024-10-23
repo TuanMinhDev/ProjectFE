@@ -3,9 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Card, CardBody, Col, Row } from "reactstrap";
 import Nguoi from "./../assets/anh/Nguoi.png";
 import Cactus from "./../assets/anh/cactus.png";
-import Facebook from "./../assets/anh/Facebook.png";
-import Github from "./../assets/anh/Github.png";
-import Google from "./../assets/anh/Google.png";
+
 
 const Welcome = () => {
   return (

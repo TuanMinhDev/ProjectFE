@@ -10,6 +10,7 @@ import Announce from "./pages/Announce"
 import Welcome from "./login";
 import Login from "./login/Login";
 import Register from "./login/Register";
+import ProductDetail from "./pages/ProductDetail";
 const App = () => {
   return (
     <Routes>
@@ -25,6 +26,7 @@ const App = () => {
     <Route path="announce" element={<Announce />} /> 
     <Route path="product" element={<Product />} />
     <Route path="user" element={<User />} />
+    <Route path=":idproductdetai" element={<ProductDetail/>}/>
   </Route>
 </Routes>
   );
