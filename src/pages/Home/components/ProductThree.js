@@ -1,4 +1,4 @@
-import "./product.css";
+
 import React from "react";
 const ProductThree = (props) => {
   const renderPrice = () => {

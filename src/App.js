@@ -10,7 +10,11 @@ import Announce from "./pages/Announce"
 import Welcome from "./login";
 import Login from "./login/Login";
 import Register from "./login/Register";
+
 import ProductDetail from "./pages/ProductDetail";
+
+import "./style/Product.css"
+
 const App = () => {
   return (
     <Routes>

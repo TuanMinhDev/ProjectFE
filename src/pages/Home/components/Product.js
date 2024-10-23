@@ -1,4 +1,4 @@
-import "./product.css"
+
 import React, { useState } from 'react';
 const Product = (props) => {
   const [currentImage, setCurrentImage] = useState(props.anh); // Ảnh ban đầu là props.anh
@@ -40,7 +40,7 @@ const Product = (props) => {
         {props?.isSale ? (
           <div
             className="badge bg-dark text-white position-absolute"
-            style={{ top: "0.5rem", right: "0.5rem" }}
+            style={{ top: "0.9rem", right: "0.5rem" }}
           >
             Sale
           </div>
