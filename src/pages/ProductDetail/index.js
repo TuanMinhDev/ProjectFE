@@ -18,13 +18,12 @@ import {
 //Simple bar
 import SimpleBar from "simplebar-react";
 
-import BreadCrumb from "../../../Components/Common/BreadCrumb";
 
-import product1 from "../../../assets/images/products/img-1.png";
-import product6 from "../../../assets/images/products/img-6.png";
-import product8 from "../../../assets/images/products/img-8.png";
+import product1 from "../../assets/anh/Facebook.png";
+import product6 from "../../assets/anh/Facebook.png";
+import product8 from "../../assets/anh/Facebook.png";
 
-import { productDetailsWidgets, reviews } from "../../../common/data/ecommerce";
+import { productDetailsWidgets, reviews } from "./data";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import classnames from "classnames";
@@ -131,7 +130,7 @@ document.title ="Product Details | Velzon - React Admin & Dashboard Template";
   return (
     <div className="page-content">
       <Container fluid>        
-        <BreadCrumb title="Product Details" pageTitle="Ecommerce" />
+       
 
         <Row>
           <Col lg={12}>
