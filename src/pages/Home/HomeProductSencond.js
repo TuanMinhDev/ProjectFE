@@ -104,7 +104,7 @@ const HomeProductSencond = () => {
               <img
                 src="https://product.hstatic.net/200000525319/product/z5729497924115_a1953bdd635637b18324b7c3493ae123_f0326a196e46488a9091fbe4eebc9ac0_grande.jpg"
                 alt="Product image"
-                style={{ width: "100%", height: "auto" }}
+                style={{ width: "100%", height: "90%" }}
               />
             </Col>
           </Row>
