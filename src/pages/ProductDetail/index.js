@@ -255,27 +255,7 @@ document.title ="Product Details | Velzon - React Admin & Dashboard Template";
                             </div>
                           </div>
                         </div>
-                        <div className="flex-shrink-0">
-                          <div>
-                            <Tooltip
-                              placement="top"
-                              isOpen={ttop}
-                              target="TooltipTop"
-                              toggle={() => {
-                                setttop(!ttop);
-                              }}
-                            >
-                              Edit
-                            </Tooltip>
-                            <a
-                              href="apps-ecommerce-add-product"
-                              id="TooltipTop"
-                              className="btn btn-light"
-                            >
-                              <i className="ri-pencil-fill align-bottom"></i>
-                            </a>
-                          </div>
-                        </div>
+                        
                       </div>
 
                       <div className="d-flex flex-wrap gap-2 align-items-center mt-3">
